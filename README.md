@@ -1,16 +1,36 @@
-# HotRestaurant
 
-* Description: Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.
-* Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>
+# __HotRestaurant__
+![GitHub followers](https://img.shields.io/github/followers/sw2bae?style=for-the-badge)
+* Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.
 
-![Hot Restaurant Image](Images/HotRestaurant.png)
+## __Table of Contents__  
+* [Installation](#installation)               
+* [Usage](#usage)                    
+* [License](#license)                      
+* [Contributor](#contributor)                 
+* [Test](#test)
+* [Question](#question) 
+## __Installation__ :               
+* NA
+```  
+npm i
+```
+## __Usage__ :                   
+* Reservation Maker
+## __License__ :                    
+* NA
+## __Contributor__ :              
+* Class Mini Project
+## __Test__ :                      
+* Jest / No Test Code Yet
+```  
+npm run test
+```
+# __Question__ :
+<img width="150" src="https://avatars0.githubusercontent.com/u/60491242?v=4">
 
-## Notes
-
-* You will NOT need a MySQL Database for this exercise.
-* Current app doesn't have admin handling. We'll deal with that at a later time.
-* Don't separate the JavaScript from the HTML in the client-side code. (i.e. Don't use external JavaScript. If you do, you will need an additional line of code to configure the express server to know where the JavaScript is).
-
-## Good luck! Don't stress out
-
-* Spend some time trying to build exposure. But don't get overwhelmed. We'll have plenty of time to come back to this.
+* #### Name                     : Sang Bae
+* #### GitHub ID                : sw2bae
+* #### GitHub URL               : https://github.com/sw2bae
+* #### Website                  : https://www.linkedin.com/in/sang-bae-8a38011a0/
+* #### Email Address            : null
