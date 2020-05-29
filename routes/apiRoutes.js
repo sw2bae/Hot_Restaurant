@@ -1,23 +1,17 @@
-
-module.exports = function(app){
-
+    const express = require("express");
+    const router = express.Router();
     const reservations = [];
     const waitList = [];
 
-    app.get("/api/reservations", function (req, res) {
+    router.get("/reservations", function (req, res) {
         return res.json(reservations);
     });
     
-    app.get("/api/waiting-list", function (req, res) {
+    router.get("/waiting-list", function (req, res) {
         return res.json(waitList);
-    });
+    });  
     
-    
-    
-    
-    
-    
-    app.post("/api/reservations", function (req, res) {
+    router.post("/reservations", function (req, res) {
         const newReservation = req.body;
         if (reservations.length < 5) {
             reservations.push(newReservation);
@@ -27,9 +21,9 @@ module.exports = function(app){
         res.json(newReservation);
     });
     
-    app.post("/api/clear",function(req,res){
+    router.post("/clear",function(req,res){
         reservations.length = 0;
         waitList.length = 0;
     });
     
-};
+    module.exports = router;
